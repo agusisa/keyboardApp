@@ -1,0 +1,23 @@
+<h1>keyboards</h1>
+<hr>
+
+
+<div class="card-columns">
+
+  <div class="card animated fadeIn slow" *ngFor="let keyboard of keyboards; let i = index">
+    <img class="card-img-top" [src]="keyboard.img" [alt]="keyboard.name">
+    <div class="card-body">
+      <h4 class="card-title">
+      {{ keyboard.name }}</h4>
+      <p class="card-text">{{ keyboard.bio }}</p>
+      <p class="card-text"><small class="text-muted">{{ keyboard.release }}</small></p>
+
+      <button (click)="verkeyboard(i)" type="button" class="btn btn-outline-primary btn-block">
+        More...
+
+      </button>
+      <!-- <a [routerLink]="['/keyboard', i]" class="btn btn-outline-primary">Ver más link...</a> -->
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,31 @@
+<h1 class="row animated fadeIn">{{ keyboard.name }} <small class="col-md-3 bajar" > {{keyboard.release}}</small></h1>
+<hr>
+
+<div class="row animated fadeIn fast">
+  <div class="col-md-4">
+
+    <img [src]="keyboard.img" class="img-fluid" alt="">
+    <br><br>
+    <a [routerLink]="['/keyboards']" class="btn btn-outline-danger btn-block"> Regresar</a>
+  </div>
+
+  <div class="col-md-8">
+    <h3>{{keyboard.name}}</h3>
+    <hr>
+    <p>
+      {{keyboard.bio}}
+    </p>
+
+        <div class="card-body">
+      <img *ngIf="keyboard.brand == 'Korg'" src="./assets/img/Korg.png" alt="">
+      <img *ngIf="keyboard.brand == 'Fairlight'" src="./assets/img/fairlightLogo.png" alt="">
+      <img *ngIf="keyboard.brand == 'Mellotronics'" src="./assets/img/MellotronLogo.png" alt="">
+      <img *ngIf="keyboard.brand == 'Nord'" src="./assets/img/nordLogo.png" alt="">
+      <img *ngIf="keyboard.brand == 'Roland'" src="./assets/img/RolandLogo.png" alt="">
+      <img *ngIf="keyboard.brand == 'Yamaha'" src="./assets/img/yamahaLogo.png" alt="">
+      <img *ngIf="keyboard.brand == 'Dave Smith'" src="./assets/img/daveSmithLogo.png" alt="">
+      <img *ngIf="keyboard.brand == 'Moog'" src="./assets/img/MoogLogo.png" alt="">
+
+    </div>
+
+  </div>
