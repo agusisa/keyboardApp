@@ -6,8 +6,8 @@ export class keyboardsService {
 
   private keyboards: keyboard[] = [
     {
-      name: "korg MS20",
-      bio: "El sintetizador monofónico Korg MS-20, presentado por vez primera en 1978, es en la actualidad un instrumento muy buscado, gracias a su sonido grueso y robusto, su potente e icónico filtro analógico y su versátil panel de conexiones. Más de 300.000 usuarios han disfrutado de los personales sonidos del MS-20 original, y también del sinte Korg MS-20 plug-in e iMS-20 iPad app. Hoy, los sonidos del MS-20 renacen con el MS-20 Mini. Los mismos ingenieros que diseñaron el MS-20 original han reproducido a la perfección la circuitería y la han incorporado a un cuerpo que es un 86% del tamaño original, reteniendo el mismo diseño distintivo que sigue siendo tan actual a pesar del paso del tiempo. El MS-20 mini te sorprenderá con su sonido increíble de auténtico sinte analógico.",
+      name: "Korg MS20",
+      bio: "The MS-20 was one of Korg's first major successful portable analog monosynths and even today it is still a great little machine! The MS-20 is the big brother to the MS-10. It is an analog two-oscillator monophonic lead and bass synth with hard wired and patchable connections. The hard-wiring can be overridden however, using patch-cords. This type of hard-wired but patchable design was similar to the ARP 2600 of the late seventies. Of course the 2600 was much bigger and better. But the MS-20 offered a lot of flexible control and great sounds at a more affordable price.",
       img: "assets/img/korgMs.png",
       release: "1978",
       brand: "Korg"
